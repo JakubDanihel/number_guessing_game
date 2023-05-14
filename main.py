@@ -46,7 +46,7 @@ def je_cislo(vstup):
         #if it is false print error message an ask for input again a try to check it again
         print("Error! Value is not a number!")
         foo = input("Put a number: ")
-        je_cislo(foo)
+        return je_cislo(foo)
 
 #telo hlavnej fukcie
 #body of main function
